@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { domAnimation, LazyMotion } from "framer-motion";
+import { domAnimation, LazyMotion, motion } from "framer-motion";
 
 const App = () => (
   <LazyMotion strict features={domAnimation}>
