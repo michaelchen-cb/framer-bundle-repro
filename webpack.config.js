@@ -13,6 +13,11 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
   },
+  resolve: {
+    alias: {
+      'framer-motion': path.resolve(__dirname, 'node_modules/framer-motion/dist/cjs'),
+    },
+  },
   module: {
     rules: [
       {
